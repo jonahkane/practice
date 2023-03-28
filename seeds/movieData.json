@@ -1,17 +1,29 @@
 [
   {
-    "name": "Music Near Me",
-    "description": "A mobile app that will send you notifications whenever a concert is playing in your area.",
-    "needed_funding": 5000
+    "name": "The Shawshank Redemption", 
+    "description": "Frank Darabont", 
+    "movie_ratings": 1994 
   },
   {
-    "name": "The Ultimate Tech Quiz",
-    "description": "A web app that will give users 10 new technical questions each day and track their progress in things like programming, cybersecurity, database architecture, and more!",
-    "needed_funding": 10000
+    "name": "The Godfather", 
+    "description": "Francis Ford Coppola", 
+    "movie_ratings": 1972 
   },
   {
-    "name": "Roll 'Em Up",
-    "description": "A game for Windows and macOS where players move a ball through a series of increasingly challenging mazes.",
-    "needed_funding": 800
+    "name": "The Godfather: Part II", 
+    "description": "rancis Ford Coppola", 
+    "movie_ratings": 1974 
+  },
+  {
+    "name": "The Dark Knight", 
+    "description": "Christopher Nolan", 
+    "movie_ratings": 2008 
+  },
+  {
+    "name": "12 Angry Men", 
+    "description": "Sidney Lumet", 
+    "movie_ratings": 1957 
   }
 ]
+  
+

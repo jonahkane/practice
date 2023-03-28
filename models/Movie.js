@@ -23,7 +23,7 @@ Movie.init(
       allowNull: false,
       defaultValue: DataTypes.NOW,
     },
-    needed_funding: {
+    movie_ratings: {
       type: DataTypes.FLOAT,
       allowNull: false,
     },
@@ -44,30 +44,3 @@ Movie.init(
   }
 );
 module.exports = Movie;
-
-// const Movie = db.define('Movie', {
-//   title: {
-//     type: DataTypes.STRING,
-//     allowNull: false
-//   },
-//   director: {
-//     type: DataTypes.STRING,
-//     allowNull: false
-//   },
-//   year: {
-//     type: DataTypes.INTEGER,
-//     allowNull: false
-//   },
-//   rating: {
-//     type: DataTypes.INTEGER,
-//     allowNull: false,
-//     defaultValue: 0
-//   },
-//   review: {
-//     type: DataTypes.STRING,
-//     allowNull: true
-//   }
-// });
-
-// module.exports = Movie;
-
