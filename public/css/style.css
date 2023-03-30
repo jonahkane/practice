@@ -21,6 +21,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   color: #333;
+  
 }
 
 .container {
@@ -74,4 +75,19 @@ p {
     font-size: 14px;
     padding: 8px 16px;
   }
+}
+
+.rating {
+  display: flex;
+  width: 180px;
+  justify-content: center;
+  margin: 0 auto;
+  
+  
+
+}
+
+.rating__star {
+  cursor: pointer;
+  color: #dabd18b2;
 }
