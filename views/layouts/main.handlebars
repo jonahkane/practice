@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movie Review</title>
+  <script src="https://kit.fontawesome.com/12ac653a61.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="/css/jass.css">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/main.css">
+
+      
+  </head>
+<body> 
+  <div class="flex-column justify-space-around">
+    <header class="display-flex justify-space-between align-center p-2">
+      <h1>
+        <span role="img" aria-label="movie">📽</span> 
+        <a href="/">Review a movie!</a>
+      </h1>
+      <nav>
+        <a href="/">Home</a> |
+        {{#if logged_in}}
+        <a href="/profile">Profile</a> |
+        <a href="logout" id="logout">Logout</a> |
+        {{else}}
+        <a href="/login">Login</a> |
+        {{/if}}
+        <a href="/about">About</a> |
+      </nav>
+    </header>
+    <main class="container container-fluid mt-5">
+      {{{ body }}}
+    </main>
+    <footer>
+      
+    </footer>
+  </div>
+
+  {{#if logged_in}}
+  <script src="/js/logout.js"></script>
+  {{/if}}
+</body>
+<script src="/js/moviestars.js"></script>
+</html>
